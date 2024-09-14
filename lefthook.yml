@@ -12,3 +12,5 @@ pre-commit:
       run: pnpm format
     types:
       run: pnpm types
+    test:
+      run: pnpm test

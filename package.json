@@ -9,15 +9,19 @@
     "lint:check": "pnpm -C questions lint:check",
     "format": "pnpm -C questions format",
     "format:check": "pnpm -C questions format:check",
-    "types": "pnpm -C questions types"
+    "types": "pnpm -C questions types",
+    "test": "pnpm -C questions test"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
+    "@types/jest": "^29.5.13",
     "@types/node": "^22.5.5",
+    "jest": "^29.7.0",
     "lefthook": "^1.7.15",
     "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }

@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "Assignment for Metrobi Application",
   "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll --collectCoverage",
     "q1": "ts-node ./q1.ts",
     "lint": "eslint --fix --ext .ts .",
     "lint:check": "eslint --ext .ts .",
