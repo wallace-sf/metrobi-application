@@ -4,12 +4,20 @@
   "engines": {
     "node": ">=18"
   },
+  "scripts": {
+    "lint": "pnpm -C questions lint",
+    "lint:check": "pnpm -C questions lint:check",
+    "format": "pnpm -C questions format",
+    "format:check": "pnpm -C questions format:check",
+    "types": "pnpm -C questions types"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
     "@types/node": "^22.5.5",
     "lefthook": "^1.7.15",
+    "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
