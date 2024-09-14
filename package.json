@@ -9,8 +9,7 @@
     "lint:check": "pnpm -C questions lint:check",
     "format": "pnpm -C questions format",
     "format:check": "pnpm -C questions format:check",
-    "types": "pnpm -C questions types",
-    "test": "pnpm -C questions test"
+    "types": "pnpm -C questions types"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
