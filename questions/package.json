@@ -3,6 +3,15 @@
   "version": "0.0.0",
   "description": "Assignment for Metrobi Application",
   "scripts": {
-    "q1": "ts-node ./q1.ts"
+    "q1": "ts-node ./q1.ts",
+    "lint": "eslint --fix --ext .ts .",
+    "lint:check": "eslint --ext .ts .",
+    "format": "prettier --write ./**/*.ts",
+    "format:check": "prettier --check ./**/*.ts",
+    "types": "tsc --noEmit --skipLibCheck"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/prettier-config": "workspace:*"
   }
 }
