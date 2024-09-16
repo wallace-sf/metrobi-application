@@ -1,4 +1,4 @@
-import { printItemsWithDelay } from './q2_solution1';
+import { printItemsWithDelay } from './solution1';
 
 jest.useRealTimers();
 jest.spyOn(global, 'setTimeout');

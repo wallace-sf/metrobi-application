@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "q6": "jest ./ZenoParadox.test.ts",
+    "q6": "jest --testPathPattern=./ZenoParadox.test.ts",
     "dev": "parcel index.html --open",
     "build": "parcel build index.html",
     "lint": "eslint --fix --ext .ts,.tsx .",
