@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "q6": "jest --testPathPattern=./ZenoParadox.test.ts",
-    "dev": "parcel index.html --open",
+    "dev": "parcel index.html --open --port 3001",
     "build": "parcel build index.html",
     "lint": "eslint --fix --ext .ts,.tsx .",
     "lint:check": "eslint --ext .ts,.tsx .",
