@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "Assignment for Metrobi Application",
   "scripts": {
-    "q2": "jest ./questions/q2/q2_solution1.test.ts",
     "lint": "eslint --fix --ext .ts .",
     "lint:check": "eslint --ext .ts .",
     "format": "prettier --write ./**/*.ts",
