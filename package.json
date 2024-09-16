@@ -13,9 +13,11 @@
     "q1:s1": "pnpm -C questions q1:s1",
     "q1:s2": "pnpm -C questions q1:s2",
     "q2": "pnpm -C questions q2",
+    "q3:dev": "pnpm -C react/q3 dev",
     "q4": "pnpm -C questions q4",
     "q5": "pnpm -C questions q5",
     "q6": "pnpm -C react/q6 q6",
+    "q6:dev": "pnpm -C react/q6 dev",
     "q7": "pnpm -C questions q7"
   },
   "devDependencies": {
