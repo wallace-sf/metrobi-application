@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "Assignment for Metrobi Application",
   "scripts": {
+    "q1:s1": "jest --testPathPattern=./q1/solution1.test.ts",
+    "q1:s2": "jest --testPathPattern=./q1/solution2.test.ts",
+    "q2": "jest --testPathPattern=./q2/solution1.test.ts",
+    "q4": "jest --testPathPattern=./q4/solution1.test.ts",
+    "q5": "jest --testPathPattern=./q5/solution1.test.ts",
+    "q7": "jest --testPathPattern=./q7/solution1.test.ts",
     "lint": "eslint --fix --ext .ts .",
     "lint:check": "eslint --ext .ts .",
     "format": "prettier --write ./**/*.ts",

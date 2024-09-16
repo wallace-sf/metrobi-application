@@ -1,8 +1,8 @@
-import { findDuplicates } from './q1_solution1';
+import { findDuplicates } from './solution2';
 
-describe('findDuplicates solution 1', () => {
+describe('findDuplicates solution 2', () => {
   it('should return duplicates in a simple array', () => {
-    expect(findDuplicates([1, 2, 3, 4, 3, 5, 1, 6, 2])).toEqual([3, 1, 2]);
+    expect(findDuplicates([1, 2, 3, 4, 3, 5, 1, 6, 2])).toEqual([1, 2, 3]);
   });
 
   it('should return an empty array for an array with no duplicates', () => {

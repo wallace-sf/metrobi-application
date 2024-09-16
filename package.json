@@ -9,7 +9,14 @@
     "lint:check": "pnpm -C questions lint:check",
     "format": "pnpm -C questions format",
     "format:check": "pnpm -C questions format:check",
-    "types": "pnpm -C questions types"
+    "types": "pnpm -C questions types",
+    "q1:s1": "pnpm -C questions q1:s1",
+    "q1:s2": "pnpm -C questions q1:s2",
+    "q2": "pnpm -C questions q2",
+    "q4": "pnpm -C questions q4",
+    "q5": "pnpm -C questions q5",
+    "q6": "pnpm -C react/q6 q6",
+    "q7": "pnpm -C questions q7"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
